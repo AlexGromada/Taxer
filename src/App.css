@@ -1,0 +1,80 @@
+.App {
+  margin: 200px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+}
+button{
+  width: 160px;
+  min-height: 40px;
+  margin-top: 10px;
+  background-color: azure;
+  border:1px solid lightgray;
+  border-radius: 4px;
+}
+.none{
+  display: none;
+}
+.ButtonAndListContainer{
+  width: 30%;
+  margin: 15% 0 10% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Dropzone, .CertificateFullInfo{
+  width: 55%;  
+  margin: 15% auto;
+  border-radius: 4px;
+}
+.Dropzone{
+  border: 1px dashed black;
+  height: 60%;
+}
+.Dropzone>div, .CertificateList{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.Dropzone>div{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.CertificateList{
+  margin-top: 5%;
+
+  overflow: auto;
+}
+.CertificateObject{
+  width: 90%;
+  border: 2px solid aqua;
+  border-radius: 4px;
+  background-color: lightskyblue;
+  margin-top: 10px;
+}
+.CertificateObject>p{
+  font-size: 16px;
+  font-weight: 600;
+}
+.CertificateFullInfo{
+  height: 60%;
+  border: 2px double green;
+}
+.CertificateFullInfo>p{
+  font-size: 18px;
+  font-weight: 700;
+}
+.CertificateFullInfo>*{
+  margin-left: 5%;
+}
+.DeleteButton{
+  background-color: red;
+  border-color: rgb(150, 0, 0);
+  color: white;
+}
